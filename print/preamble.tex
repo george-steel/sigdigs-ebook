@@ -1,0 +1,69 @@
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{xunicode}
+\usepackage[hyphens,obeyspaces,spaces]{url}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{adforn}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+
+%set margins
+\usepackage[]{geometry}
+\geometry{inner=6pc,outer=5pc,top=5pc,bottom=5pc}
+
+\usepackage[osf]{Alegreya}
+
+\setlength{\parindent}{0pt}
+\nonzeroparskip
+
+\AtBeginEnvironment{quote}{\small}
+\setlist[enumerate]{leftmargin=1.5em}
+
+\captionnamefont{\sffamily\itshape\bfseries}
+\captiontitlefont{\sffamily\itshape}
+
+% line ang page breaking and alignment
+\usepackage[protrusion=true,final]{microtype}
+\DeclareMicrotypeSetDefault[protrusion]{basictext}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+\clubpenalty=9996
+\widowpenalty=9999
+\sloppybottom
+\hyphenpenalty=500
+\midsloppy
+
+% thin spaces and proper breaking around em dash
+% http://tug.org/pipermail/xetex/2005-November/002790.html
+\DeclareRobustCommand{\emdashwithspacing}%
+{\unskip\nobreak\thinspace\textemdash\thinspace\ignorespaces}
+\catcode`\—=\active
+\let—\emdashwithspacing
+
+\newenvironment{postepi}{\clearpage\thispagestyle{plain}~\vfill\begin{verse}\itshape}{\end{verse}\vfill~}
+
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+
+\nouppercaseheads
+\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize{\scshape Significant Digits}}}
+\makeoddhead{headings}{}{}{{\footnotesize\scshape\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
+
+\setsecnumdepth{chapter}
+\chapterstyle{bianchi}
+
+\setlength{\beforechapskip}{0pc}
+
+\setsecheadstyle{\Large\sffamily\bfseries}
+\setsubsecheadstyle{\large\sffamily\bfseries}
+
+\setcounter{tocdepth}{0}
+\def\cftchapterfont{\addfontfeatures{Numbers={Monospaced,Lining}}}
+\setlength\cftbeforechapterskip{4pt}
+\def\cftchapterdotsep{3}
+
+\def\cftchapterpagefont{\cftchapterfont}
+
+
