@@ -74,7 +74,7 @@ Power should not be obvious.
 less cheerful. “The cowards fall, one by one.”
 
 “That is why I am here,” he said. “We must call a meeting, and we must
-discuss what the Americas will do. Inaction is no longer an option - not
+discuss what the Americas will do. Inaction is no longer an option — not
 with Thing after Thing formally agreeing to the darkest of rituals! If
 we wait much longer, then it will be too late.”
 
@@ -95,8 +95,8 @@ But he was very persuasive.
 Britain for a few years. Europe has now agreed to the Tower’s demands
 almost as a whole, saving only the brave Cappadocians. France has
 already begun putting in place the necessary procedures to comply with
-the treaty. Thus far, it’s only the harmless things - Healer’s Kits and
-all that - but it won’t be too much longer before Safety Poles are set
+the treaty. Thus far, it’s only the harmless things — Healer’s Kits and
+all that — but it won’t be too much longer before Safety Poles are set
 up in Quiberon, Beauxbatons, Aix-en-Provence, and throughout Paris!
 Brainwashing available at the touch of a finger!”
 
@@ -110,7 +110,7 @@ take a stand.
 “I don’t know if you’ve ever noticed that, in an emergency, people in a
 crowd are slow to help. Someone gets hit by a Quaffle and falls into the
 stands, and everyone just stands back and looks shocked. No one in the
-crowd feels responsible - they’re just watching. But when there’s only
+crowd feels responsible — they’re just watching. But when there’s only
 one bystander, that person knows that it’s on them. They have to
 intervene. And that’s us, now. That’s the Westphalian Council. We’ve
 spent years fighting for the rights of nonhumans and Muggles! We sent

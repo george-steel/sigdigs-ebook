@@ -7,12 +7,16 @@
 \usepackage{adforn}
 \usepackage{etoolbox}
 \usepackage{enumitem}
+\usepackage{xcolor}
 
 %set margins
 \usepackage[]{geometry}
 \geometry{inner=6pc,outer=5pc,top=5pc,bottom=5pc}
 
-\usepackage[osf]{Alegreya}
+%\setmainfont{EB Garamond}
+\usepackage{Alegreya}
+\newfontface\UrlFont[Scale=MatchLowercase,Color=000033]{Latin Modern Mono Prop}
+\newfontfamily\greekfont[Script=Greek,Scale=MatchUppercase]{EB Garamond}
 
 \setlength{\parindent}{0pt}
 \nonzeroparskip
@@ -28,6 +32,7 @@
 \DeclareMicrotypeSetDefault[protrusion]{basictext}
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
+\setotherlanguage{greek}
 
 \clubpenalty=9996
 \widowpenalty=9999
@@ -52,7 +57,7 @@
 \makeoddhead{headings}{}{}{{\footnotesize\scshape\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
 
 \setsecnumdepth{chapter}
-\chapterstyle{bianchi}
+%\chapterstyle{bianchi}
 
 \setlength{\beforechapskip}{0pc}
 
