@@ -13,6 +13,7 @@ ifilter x = x
 
 bfilter :: Block -> Block
 bfilter (Div hs@(_,["postepi"],_) xs) = Div hs ([RawBlock (Format "latex") "\\begin{postepi}"] ++ walk citeright xs ++ [RawBlock (Format "latex") "\\end{postepi}"])
+bfilter HorizontalRule = RawBlock (Format "latex") "\\mybreak"
 bfilter x = x
 
 myfilter :: Pandoc -> Pandoc

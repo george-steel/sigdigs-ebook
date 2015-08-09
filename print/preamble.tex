@@ -17,9 +17,10 @@
 \usepackage{Alegreya}
 \newfontface\UrlFont[Scale=MatchLowercase,Color=000033]{Latin Modern Mono Prop}
 \newfontfamily\greekfont[Script=Greek,Scale=MatchUppercase]{EB Garamond}
+\newfontfamily\titlefont[Numbers={Proportional,Lining}]{PT Serif Bold}
 
-\setlength{\parindent}{0pt}
-\nonzeroparskip
+%\setlength{\parindent}{0pt}
+%\nonzeroparskip
 
 \AtBeginEnvironment{quote}{\small}
 \setlist[enumerate]{leftmargin=1.5em}
@@ -49,12 +50,16 @@
 
 \newenvironment{postepi}{\clearpage\thispagestyle{plain}~\vfill\begin{verse}\itshape}{\end{verse}\vfill~}
 
+\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
+
+\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
+
 
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 
 \nouppercaseheads
-\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize{\scshape Significant Digits}}}
-\makeoddhead{headings}{}{}{{\footnotesize\scshape\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
+\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize\titlefont S1GN1F1CANT D1G1T5}}
+\makeoddhead{headings}{}{}{{\footnotesize\titlefont\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
 
 \setsecnumdepth{chapter}
 %\chapterstyle{bianchi}
