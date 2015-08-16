@@ -338,7 +338,7 @@ but remained still otherwise. She couldn’t see anything. Unluckily, her
 face was pressed against a large rock, and it entirely blotted out her
 view. She listened, instead, and waited for her body to finish healing.
 
-“Τι συνέβη [What happened]?” A male voice shouted. A female voice
+“<span lang=el>Τι συνέβη</span> [What happened]?” A male voice shouted. A female voice
 called back an answer, but was too far away to be audible. No mandrakes
 could be heard, so the soldiers must have killed the exposed ones.
 
@@ -372,8 +372,8 @@ hard, and their emergency portkeys had broken with the impact.
 Her own wand was probably somewhere around here. No matter. The
 soldiers were watching her warily. They were surprised but not awed, so
 maybe the fall hadn’t looked as impressive as it had felt. Still, she
-gave it a try, speaking in clear and awkward syllables: “Θα πρέπει να
-παραδοθούν. [You must surrender.]”
+gave it a try, speaking in clear and awkward syllables: “<span lang=el>Θα πρέπει να
+παραδοθούν.</span> [You must surrender.]”
 
 There was an absolute and complete absence of contemptuous laughter,
 scornful retorts, or other displays of bravado. Instead, several of the
