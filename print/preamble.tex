@@ -8,22 +8,26 @@
 \usepackage{etoolbox}
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{niceframe}
 
 %set margins
 \usepackage[]{geometry}
 \geometry{inner=6pc,outer=5pc,top=5pc,bottom=5pc}
 
 %\setmainfont{EB Garamond}
-\usepackage{Alegreya}
+%\usepackage{Alegreya}
+\setmainfont[Numbers={Proportional,OldStyle}]{Adobe Jenson Pro}
 \newfontface\UrlFont[Scale=MatchLowercase,Color=000033]{Latin Modern Mono Prop}
 \newfontfamily\greekfont[Script=Greek,Scale=MatchUppercase]{EB Garamond}
-\newfontfamily\titlefont[Numbers={Proportional,Lining}]{PT Serif Bold}
+\newfontfamily\titlefont{Kelmscott}
+\newfontface\titlepagefont[Numbers={Proportional,Lining}]{Vinque}
+\newfontface\kingdingfont[Scale=1.5]{Kingthings Flourishes}
+
+\newcommand\kding[1]{\kingdingfont #1}
+\newcommand\rkding[1]{\reflectbox{\kingdingfont #1}}
 
 %\setlength{\parindent}{0pt}
 %\nonzeroparskip
-
-\AtBeginEnvironment{quote}{\small}
-\setlist[enumerate]{leftmargin=1.5em}
 
 \captionnamefont{\sffamily\itshape\bfseries}
 \captiontitlefont{\sffamily\itshape}
@@ -48,23 +52,31 @@
 \catcode`\—=\active
 \let—\emdashwithspacing
 
-\newenvironment{postepi}{\clearpage\thispagestyle{plain}~\vfill\begin{verse}\itshape}{\end{verse}\vfill~}
+\newcommand\fding{\kingdingfont\Large}
+\newcommand\lding{\fding\kern -0.12em A\kern 0.12em}
+\newcommand\qding{\raisebox{-0.1em}{\fding a}}
+\newcommand\epiframe{\generalframe{\qding}{\lding}{\qding}{\rotatebox{90}{\lding\vphantom{o}}}{\rotatebox{90}{\lding}}{\qding}{\lding}{\qding}}
 
-\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
+\newcommand\postepi[1]{\clearpage\thispagestyle{plain}~\vfill\begin{center}\epiframe{\begin{minipage}{3.5in}\begin{verse}\itshape #1 \end{verse}\end{minipage}}\end{center}\vfill~}
+\newcommand\qsource[1]{\sourceatright{— \upshape #1\quad}}
 
-\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
+\setlength{\vleftmargin}{6pt}
 
 
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 
 \nouppercaseheads
-\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize\titlefont S1GN1F1CANT D1G1T5}}
+\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize\titlefont Significant Digits}}
 \makeoddhead{headings}{}{}{{\footnotesize\titlefont\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
 
 \setsecnumdepth{chapter}
 %\chapterstyle{bianchi}
 
 \setlength{\beforechapskip}{0pc}
+
+%\renewcommand*{\chapnumfont}{\normalfont\huge\titlefont\itshape}
+%\renewcommand*{\chapnamefont}{\chapnumfont}
+%\renewcommand*{\chaptitlefont}{\normalfont\Huge\titlefont}
 
 \setsecheadstyle{\Large\sffamily\bfseries}
 \setsubsecheadstyle{\large\sffamily\bfseries}
@@ -75,5 +87,28 @@
 \def\cftchapterdotsep{3}
 
 \def\cftchapterpagefont{\cftchapterfont}
+
+\makechapterstyle{mychapters}{
+\setlength{\beforechapskip}{0pt}
+%\def\chapterheadstart{\centering\includegraphics[height=1.5in]{images/chapternums/big-\thechapter.pdf}\par}
+\renewcommand\chapnumfont{\LARGE\titlefont}
+\renewcommand\chapnamefont{\chapnumfont}
+\renewcommand\chaptitlefont{\Huge\titlefont}
+\renewcommand\printchaptername{\leavevmode\centering\kern-6pt\chapnamefont\cleaders\hbox{\rkding q}\hfill\:\chaptername}
+%\renewcommand\chapternamenum{\space}
+\renewcommand\printchapternum{\chapnumfont \NumToName{\thechapter}\:\cleaders\hbox{\kding q}\hfill\kern-6pt}
+\setlength{\midchapskip}{1pc}
+%\renewcommand\afterchapternum{\par\bigskip\includegraphics[height=1.5in]{images/chapternums/big-\thechapter.pdf}\par\bigskip}
+\renewcommand\printchapternonum{\LARGE\leavevmode\cleaders\hbox{\rkding q}\hfill{\!\kding S\!}\cleaders\hbox{\kding q}\hfill\kern0pt\par\medskip}
+\def\printchaptertitle##1{\centering\chaptitlefont ##1}
+\setlength{\afterchapskip}{4pc}
+\renewcommand\afterchaptertitle{\par\smallskip{\leavevmode\kern-6pt\LARGE\cleaders\hbox{\rkding q}\hfill{\!\kding W\!}\cleaders\hbox{\kding q}\hfill\kern-6pt}\vspace{2pc}\par}
+}
+\chapterstyle{mychapters}
+
+%\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
+%\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
+
+\def\mybreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\kding m}\hfill{\!\kding r\!}\cleaders\hbox{\rkding m}\hfill\kern28pt}\bigskip}
 
 

@@ -3,7 +3,7 @@ import Text.Pandoc.JSON
 import Text.Pandoc.Walk
 
 citeright :: Inline -> Inline
-citeright (RawInline (Format "html") "<cite>") = RawInline (Format "latex") "\\sourceatright{"
+citeright (RawInline (Format "html") "<cite>") = RawInline (Format "latex") "\\qsource{"
 citeright (RawInline (Format "html") "</cite>") = RawInline (Format "latex") "}"
 citeright x = x
 
@@ -12,7 +12,7 @@ ifilter (Span hs@(_,_,[("lang","el")]) xs) = Span hs ([RawInline (Format "latex"
 ifilter x = x
 
 bfilter :: Block -> Block
-bfilter (Div hs@(_,["postepi"],_) xs) = Div hs ([RawBlock (Format "latex") "\\begin{postepi}"] ++ walk citeright xs ++ [RawBlock (Format "latex") "\\end{postepi}"])
+bfilter (Div hs@(_,["postepi"],_) xs) = Div hs ([RawBlock (Format "latex") "\\postepi{"] ++ walk citeright xs ++ [RawBlock (Format "latex") "}"])
 bfilter HorizontalRule = RawBlock (Format "latex") "\\mybreak"
 bfilter x = x
 
