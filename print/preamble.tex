@@ -23,7 +23,7 @@
 \newfontface\titlepagefont[Numbers={Proportional,Lining}]{Vinque}
 \newfontface\kingdingfont[Scale=1.5]{Kingthings Flourishes}
 
-\newcommand\kding[1]{\kingdingfont #1}
+\newcommand\kding[1]{{\kingdingfont #1}}
 \newcommand\rkding[1]{\reflectbox{\kingdingfont #1}}
 
 %\setlength{\parindent}{0pt}
@@ -66,8 +66,9 @@
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 
 \nouppercaseheads
-\makeevenhead{headings}{\makebox[0pt][r]{\thepage\enspace}\adfleafright}{}{{\footnotesize\titlefont Significant Digits}}
-\makeoddhead{headings}{}{}{{\footnotesize\titlefont\leftmark}\quad\adfleafleft\makebox[0pt][l]{\enspace\thepage}}
+\newcommand\squigglefill{\leavevmode\kern-3pt\cleaders\hbox{\kding A}\hfill\kern-3pt}
+\makeevenhead{headings}{\footnotesize\titlefont\thepage\enspace\raisebox{-0.15em}{\normalsize\kding{1}}\quad Significant Digits\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
+\makeoddhead{headings}{\footnotesize\titlefont\leftmark\hfill\raisebox{-0.15em}{\normalsize\kding{1}}\enspace\thepage\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
 
 \setsecnumdepth{chapter}
 %\chapterstyle{bianchi}
