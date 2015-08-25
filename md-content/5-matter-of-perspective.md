@@ -62,9 +62,7 @@ They also passed by the Advancement Agency, the first research station he’d se
 This walk through the compound, along with the walk to the meeting room, sent important messages to the visitors.
 
 1.  *Look at all these normal-looking people doing harmless things!* There were no walls dripping with blood or chairs upholstered in mermaid skin. While useless as an articulated argument, the normality of what they saw would soothe their suspicions further.
-
 2.  *Look at all these witnesses!* Everyone feels safer in a crowd.
-
 3.  *Look at all these vulnerabilities!* All of the witches and wizards they saw could be corrupted, blackmailed, persuaded, spied upon, and otherwise used as a tool by any future attacks from the Westphalian Council. Harry knew this, Hig knew it, and Hig knew that Harry knew that Hig knew it. This would be doubly effective if Harry’s hypothesis was correct, and many of their faces were being recorded or broadcasted right now.
 
 Publicly, there were twenty-five research centers in the Tower. This was the most that Harry felt he could manage. By the time they gained enough autonomy so that they no longer required so much of his personal direction, his available time would be even further reduced. Or at least, that was the plan, as they brought more and more of the magical world into the Treaty. These days, his time was very tightly-scheduled and filled with emergencies, but he still had seven or eight hours out of every thirty to devote to his own pursuits. This was probably the sweet spot, and someday he’d look back on such luxury with fondness: enough power and resources to begin to make meaningful global change, but enough time to enjoy himself in his off-hours.

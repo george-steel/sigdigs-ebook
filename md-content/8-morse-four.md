@@ -1,9 +1,9 @@
 Morse Four
 ==========
 
-*May 1st, 1238 C.E.*
-*7:34 p.m.*
-*Cottage of Ignotus and Cadmus Peverell, Sontag, Britain*
+*May 1st, 1238 C.E.*\
+*7:34 p.m.*\
+*Cottage of Ignotus and Cadmus Peverell, Sontag, Britain.*\
 *Here translated into modern English vernacular and stripped of the lies of idiots.*
 
 “Antioch will not accept this,” said Cadmus, leaning back in his chair.  He was huge and hairy.  Sitting there with no shirt, the light of the fire made the blonde hairs on his arms and shoulders and chest glint as if they were golden wires.  He clasped his hands over his big belly, and made a deep sound of discontent at the thought of his brother’s anger.
@@ -57,9 +57,9 @@ Cadmus rubbed his belly thoughtfully.  “We will be together, though?”
 ****************************************
 
 
-*September 3rd, 1941*
-*4:00 p.m.*
-*Slytherin Boys’ Dormitory, Hogwarts School of Witchcraft and Wizardry, Scotland*
+*September 3rd, 1941*\
+*4:00 p.m.*\
+*Slytherin Boys’ Dormitory, Hogwarts School of Witchcraft and Wizardry, Scotland*\
 *Diary entry.*
 
 It’s not that I can’t win, but that I don’t know how clever to be.  My opponent is an unknown quantity… what level is he playing at?  When he lays a trap for me, is it a simple trick, or is he lying in wait for me to make the obvious evasion?  If I decline to address the trap out of caution, am I passing up a chance for swift and conclusive victory?  If I devise strategies to bring him into the fold with subtlety and poisonous gambits, am I wasting time and effort on a simpleton who could be broken with only a moment’s work?  Imbecile or genius, marvel or moron?
@@ -75,8 +75,8 @@ I need an opponent.  Even at the risk of defeat, I want someone to match me.  To
 **********************************
 
 
-*March 12th, 1999*
-*8:29 p.m.*
+*March 12th, 1999*\
+*8:29 p.m.*\
 *Franklin’s Nez, Tidewater, Boston*
 
 Hermione discussed what she knew about bombs with Hig and Tineagar for almost an hour.  It was nothing that even cursory research wouldn’t have revealed, but it would have been stupid not to take advantage of this opportunity to build more trust.  She ignored her unsettled stomach and the whirl of her thoughts, and patiently explained the basics of chemical reactions.
@@ -94,8 +94,8 @@ She hoped she was wrong, and that this was all some terrible mistake or strange 
 ***************************************
 
 
-*March 12th, 1999*
-*8:45 p.m.*
+*March 12th, 1999*\
+*8:45 p.m.*\
 *Alþing of the Mystical and Benevolent Council of Westphalia, Tidewater, Boston*
 
 Hig leaned forward, squinting.  This was clever.  He usually played three or four games concurrently with different people, but this current correspondence game had all of his attention.  His opponent was employing the Sicilian, but every move they’d made since fianchettoing their bishop had been an innovation, and the pawn storm was exhilerating.  It was either crazy or brilliant — the game of someone with an unconventional mind.  Hig could already see the flaws, of course… he was going to crush this dilettante without too much trouble.  Let this opponent make any choice he wish, conventional or no: their wildness didn’t matter when all roads led to Hig’s desire.
@@ -105,8 +105,8 @@ He glanced at the level in the water clock.  Not much time remained before he sh
 ***************************************
 
 
-*March 12th, 1999*
-*9:15 p.m.*
+*March 12th, 1999*\
+*9:15 p.m.*\
 *Franklin’s Nez, Tidewater, Boston*
 
 “Harry sent these, and said you and Esther knew how to use them,” Tonks said, putting a double handful of small metal boxes on the table, each one perhaps the size of a die.  The chargers for the gauntlets.  “So what’s up?  I guess this is all hush-hush, but I thought this was supposed to be a pretty easy little jaunt for you out here — smile at the locals, wave your hands majestically, and all that.  Harry was sitting in some new garden he’s just had planted, and he wouldn’t say what went wrong.  Distracted by his new topiaries, I guess.”

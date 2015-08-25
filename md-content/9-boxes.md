@@ -6,7 +6,7 @@ Boxes
 > 
 > “Grandmother, come here.  You are old and show your wisdom on your face, and that is not allowed.  You have scars from your battles, and they are not allowed.  You have rough edges and a special crinkle at the corner of your eyes, and they are not allowed.  You disagree with the Tower and the tyrants who control us, and that is not allowed.  Come here, so that we can make you into one of the dolls.  We will change your face.  We will change your eyes.  We will change your mind.”
 > 
-> And when “grandmother” comes back to you, she will be changed indeed!  She will be young and new... and she will be ready to swear fealty to the House of Potter.
+> And when “grandmother” comes back to you, she will be changed indeed!  She will be young and new… and she will be ready to swear fealty to the House of Potter.
 > 
 > No one knows what really happens when you send someone to the Tower, but there are dark whispers of the real truth.  We are fed obvious lies about a new form of magic and an impregnable clinic and happy, bouncing babies restored to their mother’s breast.  But snap that stick and all we *know* is that you are made unconscious and *obliviated*, and they send someone home who is different in ways both large and small.  No matter why they go — “rejuvenation,” spattergroit, or a broken bone: they come back *different*.  They don’t remember some special memories that you’d shared; they have different habits and mannerisms; you catch them with odd looks on their face.
 > 

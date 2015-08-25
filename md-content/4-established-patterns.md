@@ -1,6 +1,8 @@
 Established Patterns May Have Little Predictive Value
 =====================================================
 
+\chaptermark{Established Patterns \& Predictive Value}
+
 The family of Nikitas Seyhan had spent generations in the Taurus Mountains at Külek Boğazı, watching the pass through the peaks from among the rocky crags. It was harsh and cold at Külek Boğazı, and there were few Muggles (or, as Nikitas knew them, “<span lang="el">Μύγαλοι</span>”) around. The Seyhans and the few nearby families had very specific concerns, such as caring for the kneazles, ensuring there would be sufficient food, and guarding against giants. They did not live glamorous lives, and had little contact with the outside world.
 
 In a world where every witch and wizard can Floo and Apparate and portkey and Vanish on a moment’s whim, this isolation might seem strange — if not downright stupid. “Why,” we might ask, “do these foolish people not just travel to a nearby city and catch up on some of the modern advances?”
@@ -15,39 +17,39 @@ Anyway, the facts are this: Nikitas Seyhan was only vaguely aware of requirement
 
 We will dispense with the Greek and move forward in translation, but the conversation went something like this:
 
-> AUROR \#1: [Bursts through the door, wand raised. Protective amulets drip from his modern robes] Attention!
+> <span class=capnum>AUROR \#1:</span> [Bursts through the door, wand raised. Protective amulets drip from his modern robes] Attention!
 >
-> NIKITAS: [Strangled surprise]
+> <span class=capnum>NIKITAS:</span> [Strangled surprise]
 >
-> AUROR \#1 [Sternly repeating himself] Attention!
+> <span class=capnum>AUROR \#1:</span> [Sternly repeating himself] Attention!
 >
-> AUROR \#2: [Entering behind him] What is it?
+> <span class=capnum>AUROR \#2:</span> [Entering behind him] What is it?
 >
-> AUROR \#1: They are not coming to attention.
+> <span class=capnum>AUROR \#1:</span> They are not coming to attention.
 >
-> AUROR \#2: Attention!
+> <span class=capnum>AUROR \#2:</span> Attention!
 >
-> UNCLE ALEXIS: What?
+> <span class=capnum>UNCLE ALEXIS:</span> What?
 >
-> AUROR \#1: You see?
+> <span class=capnum>AUROR \#1:</span> You see?
 >
-> NIKITAS: Who are you? What do you want?
+> <span class=capnum>NIKITAS:</span> Who are you? What do you want?
 >
-> AUROR \#1: Finally! Barely makes sense, though. 'You want what it?' Idiots.
+> <span class=capnum>AUROR \#1:</span> Finally! Barely makes sense, though. 'You want what it?' Idiots.
 >
-> AUROR \#2: We want you to come to attention.
+> <span class=capnum>AUROR \#2:</span> We want you to come to attention.
 >
-> NIKITAS: What?
+> <span class=capnum>NIKITAS:</span> What?
 >
-> UNCLE ALEXIS: What?
+> <span class=capnum>UNCLE ALEXIS:</span> What?
 >
-> AUROR \#1: Be quiet, at least, if you won’t act properly. Which one of you is in supposed to be in charge of the kneazles? You are in violation of Clause 73 of the International Statute of Wizarding Secrecy, as written and empowered by the righteous and good Strategos of the Exarchate.
+> <span class=capnum>AUROR \#1:</span> Be quiet, at least, if you won’t act properly. Which one of you is in supposed to be in charge of the kneazles? You are in violation of Clause 73 of the International Statute of Wizarding Secrecy, as written and empowered by the righteous and good Strategos of the Exarchate.
 >
-> NIKITAS: What?
+> <span class=capnum>NIKITAS:</span> What?
 >
-> UNCLE ALEXIS: What?
+> <span class=capnum>UNCLE ALEXIS:</span> What?
 >
-> AUROR \#3: Enough of this. It doesn't matter, let's just get it done. They don't even understand. Stun that one and let's go.
+> <span class=capnum>AUROR \#3:</span> Enough of this. It doesn't matter, let's just get it done. They don't even understand. Stun that one and let's go.
 
 And they took Nikitas Seyhan, and accused him of allowing a kneazle to break loose and run free in Çiftehan, where dozens of Muggles had the chance to observe the bizarre, catlike creature. This particular kneazle was a big red one, knee-high, with long and drooping ears and a brownish streak on its back, and the Seyhans had certainly been aware that it had gotten free. They’d been counting on its long whiskers and significant meat, and had been saddened on its escape (and, they thought, his inevitable snowbound death).
 

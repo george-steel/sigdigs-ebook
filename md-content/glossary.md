@@ -26,7 +26,7 @@ maintains close ties with its faculty.
 
 Bones, Amelia
 :   As the Chief Warlock, Madame Amelia Bones serves as
-the leader of the **Wizengamot** and* *administrator of the justice
+the leader of the **Wizengamot** and administrator of the justice
 system of Magical Britain.  As Supreme Mugwump, she leads the
 **International Confederation of Wizards**.
 

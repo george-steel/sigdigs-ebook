@@ -2,10 +2,11 @@ Aitiai, Diaphorai, and Alethestate Prophasis
 ============================================
 
 
-> *Þis man, clepid Mundre of the Brook, seiden to Merlin, “How shal we stopje þis end?”*
-> *And Merlin ondswered in his drede, “Þat we may not come to the fate of Atlantis, which has passed out of* *þis world to nought, I shall seal alle away.  Ac even* *þis lechecrafte, pestilence and blessyng both, shall not suffice.  Manne moste wax in kunnynge.”  And whanne* *þei hadden herd the princeps incantatorum speke* *þus,* *þei were trublid.*
+> Þis man, clepid Mundre of the Brook, seiden to Merlin, “How shal we stopje þis end?”
+> 
+> And Merlin ondswered in his drede, “Þat we may not come to the fate of Atlantis, which has passed out of þis world to nought, I shall seal alle away.  Ac even þis lechecrafte, pestilence and blessyng both, shall not suffice.  Manne moste wax in kunnynge.”  And whanne þei hadden herd the princeps incantatorum speke þus, þei were trublid.
 >
->Harry Lowe, *The Transmygracioun,* passus duodecimus
+> <cite>Harry Lowe, *The Transmygracioun,* passus duodecimus</cite>
 
 ****************************
 

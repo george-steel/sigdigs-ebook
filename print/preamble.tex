@@ -6,9 +6,9 @@
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{adforn}
 \usepackage{etoolbox}
-\usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{niceframe}
+\usepackage{minibox}
 
 %set margins
 \usepackage[]{geometry}
@@ -60,19 +60,32 @@
 \newcommand\epiframe{\generalframe{\qding}{\lding}{\qding}{\rotatebox{90}{\lding\vphantom{o}}}{\rotatebox{90}{\lding}}{\qding}{\lding}{\qding}}
 
 \newcommand\postepi[1]{\clearpage\thispagestyle{plain}~\vfill\begin{center}\epiframe{\begin{minipage}{3.5in}\begin{verse}\itshape #1 \end{verse}\end{minipage}}\end{center}\vfill~}
-\newcommand\qsource[1]{\sourceatright{— \upshape #1\quad}}
+\newcommand\qsource[1]{\kern0pt\hfill\upshape \hbox{— \minibox[t,r]{#1}}}
+
+\renewenvironment{quote}{\list{}{\leftmargin 18pt\rightmargin\leftmargin}\itshape\item[]}{\endlist}
 
 \setlength{\vleftmargin}{6pt}
 
 
-\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 
 \nouppercaseheads
 \newcommand\squigglefill{\leavevmode\kern-3pt\cleaders\hbox{\kding A}\hfill\kern-3pt}
-\makeevenhead{headings}{\footnotesize\titlefont\thepage\enspace\raisebox{-0.15em}{\normalsize\kding{1}}\quad Significant Digits\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
-\makeoddhead{headings}{\footnotesize\titlefont\leftmark\hfill\raisebox{-0.15em}{\normalsize\kding{1}}\enspace\thepage\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
+\newcommand\dottyfill{\leavevmode\kern-3pt\cleaders\hbox{\kding j}\hfill\kern-3pt}
+
+\makeevenhead{headings}{\footnotesize\titlefont\thepage\enspace\raisebox{-0.15em}{\normalsize\kding{1}}\quad Significant Digits\\[-7pt]\dottyfill}{}{}
+\makeoddhead{headings}{\footnotesize\titlefont\leftmark\hfill\raisebox{-0.15em}{\normalsize\kding{1}}\enspace\thepage\\[-7pt]\dottyfill}{}{}
 \makeevenfoot{plain}{}{\footnotesize\titlefont\raisebox{-0.15em}{\normalsize\kding 1}\enspace\thepage\enspace\raisebox{-0.15em}{\normalsize\kding 1}}{}
 \makeoddfoot{plain}{}{\footnotesize\titlefont\raisebox{-0.15em}{\normalsize\kding 1}\enspace\thepage\enspace\raisebox{-0.15em}{\normalsize\kding 1}}{}
+
+\makepagestyle{bonus}
+
+\makeevenhead{bonus}{\footnotesize\titlefont\thepage\enspace\raisebox{-0.1em}{\normalsize\kding{a}}\quad Significant Digits\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
+\makeoddhead{bonus}{\footnotesize\titlefont Interlude.\quad\leftmark\hfill\raisebox{-0.1em}{\normalsize\kding{a}}\enspace\thepage\\[-6pt]\scriptsize\squigglefill\footnotesize}{}{}
+
+
+\newcommand\Startbonus{\clearforchapter\pagestyle{bonus}\chapterstyle{bonus}\setsecnumdepth{none}\let\mybreak\squigglebreak}
+\newcommand\Stopbonus{\clearpage\setsecnumdepth{chapter}\pagestyle{headings}\chapterstyle{mychapters}\let\mybreak\jaggedbreak}
 
 \setsecnumdepth{chapter}
 %\chapterstyle{bianchi}
@@ -93,6 +106,20 @@
 
 \def\cftchapterpagefont{\cftchapterfont}
 
+
+\makechapterstyle{bonus}{
+\setlength{\beforechapskip}{0pt}
+%\def\chapterheadstart{\centering\includegraphics[height=1.5in]{images/chapternums/big-\thechapter.pdf}\par}
+\renewcommand\chapnumfont{\LARGE\titlefont}
+\renewcommand\chapnamefont{\chapnumfont}
+\renewcommand\chaptitlefont{\Huge\titlefont}
+\setlength{\midchapskip}{1pc}
+\renewcommand\printchapternonum{\leavevmode\centering\kern-6pt\chapnamefont\cleaders\hbox{\rkding l}\hfill\:Interlude\:\cleaders\hbox{\kding l}\hfill\kern-6pt\par\vspace{1pc}\par}
+\def\printchaptertitle##1{\centering\chaptitlefont ##1}
+\setlength{\afterchapskip}{4pc}
+\renewcommand\afterchaptertitle{\par\smallskip{\leavevmode\kern-6pt\LARGE\cleaders\hbox{\kding m}\hfill\raisebox{-4pt}{\kern-6pt\Huge\kding{a}\kern-6pt}\cleaders\hbox{\rkding m}\hfill\kern-6pt}\vspace{2pc}\par}
+}
+
 \makechapterstyle{mychapters}{
 \setlength{\beforechapskip}{0pt}
 %\def\chapterheadstart{\centering\includegraphics[height=1.5in]{images/chapternums/big-\thechapter.pdf}\par}
@@ -103,7 +130,6 @@
 %\renewcommand\chapternamenum{\space}
 \renewcommand\printchapternum{\chapnumfont \NumToName{\thechapter}\:\cleaders\hbox{\kding q}\hfill\kern-6pt}
 \setlength{\midchapskip}{1pc}
-%\renewcommand\afterchapternum{\par\bigskip\includegraphics[height=1.5in]{images/chapternums/big-\thechapter.pdf}\par\bigskip}
 \renewcommand\printchapternonum{\LARGE\leavevmode\cleaders\hbox{\rkding q}\hfill{\!\kding S\!}\cleaders\hbox{\kding q}\hfill\kern0pt\par\medskip}
 \def\printchaptertitle##1{\centering\chaptitlefont ##1}
 \setlength{\afterchapskip}{4pc}
@@ -114,6 +140,9 @@
 %\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
 %\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
 
-\def\mybreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\kding m}\hfill{\!\kding r\!}\cleaders\hbox{\rkding m}\hfill\kern28pt}\bigskip}
+\def\squigglebreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\kding m}\hfill{\!\kding{a}\!}\cleaders\hbox{\rkding m}\hfill\kern28pt}\bigskip}
+\def\jaggedbreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\rkding q}\hfill{\!\kding S\!}\cleaders\hbox{\kding q}\hfill\kern28pt}\bigskip}
+
+\let\mybreak\jaggedbreak
 
 
