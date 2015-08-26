@@ -12,6 +12,8 @@ ifilter (Span hs@(_,_,[("lang","el")]) xs) = Span hs ([RawInline (Format "latex"
 ifilter (Span hs@(_,["capnum"],_) xs) = Span hs ((RawInline (Format "latex") "\\capnums{}") : xs )
 ifilter (RawInline (Format "html") "<cite>") = RawInline (Format "latex") "\\qsource{"
 ifilter (RawInline (Format "html") "</cite>") = RawInline (Format "latex") "}"
+ifilter (Str "Nguy\7877n") = RawInline (Format "latex") "Nguy\\makebox[0pt][l]{\\raisebox{0.5ex}{˜}}ên"
+ifilter (Str "C.E.") = RawInline (Format "latex") "\\textsc{c.e.}"
 ifilter x = x
 
 bfilter :: Block -> Block

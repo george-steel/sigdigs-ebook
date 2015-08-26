@@ -1,0 +1,10 @@
+; TECkit mapping for TeX input conventions <-> Unicode characters
+
+LHSName	"TeX-text"
+RHSName	"UNICODE"
+
+pass(Unicode)
+
+U+2019 > U+0027
+U+201D > U+0022
+U+201C > U+0022

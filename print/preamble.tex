@@ -19,7 +19,7 @@
 \setmainfont[Numbers={Proportional,OldStyle}]{Adobe Jenson Pro}
 \newfontface\UrlFont[Scale=MatchLowercase,Color=000033]{Latin Modern Mono Prop}
 \newfontfamily\greekfont[Script=Greek,Scale=MatchUppercase]{EB Garamond}
-\newfontfamily\titlefont{Kelmscott}
+\newfontfamily\titlefont[Mapping=straightapos]{Kelmscott}
 \newfontface\titlepagefont[Numbers={Proportional,Lining}]{Vinque}
 \newfontface\kingdingfont[Scale=1.5]{Kingthings Flourishes}
 
@@ -60,7 +60,7 @@
 \newcommand\epiframe{\generalframe{\qding}{\lding}{\qding}{\rotatebox{90}{\lding\vphantom{o}}}{\rotatebox{90}{\lding}}{\qding}{\lding}{\qding}}
 
 \newcommand\postepi[1]{\clearpage\thispagestyle{plain}~\vfill\begin{center}\epiframe{\begin{minipage}{3.5in}\begin{verse}\itshape #1 \end{verse}\end{minipage}}\end{center}\vfill~}
-\newcommand\qsource[1]{\kern0pt\hfill\upshape \hbox{— \minibox[t,r]{#1}}}
+\newcommand\qsource[1]{\null\hfill\upshape \hbox{— \minibox[t,r]{#1}}}
 
 \renewenvironment{quote}{\list{}{\leftmargin 18pt\rightmargin\leftmargin}\itshape\item[]}{\endlist}
 
