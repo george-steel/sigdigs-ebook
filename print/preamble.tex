@@ -12,7 +12,7 @@
 
 %set margins
 \usepackage[]{geometry}
-\geometry{inner=6pc,outer=5pc,top=5pc,bottom=5pc}
+\geometry{inner=5pc,outer=5pc,top=6pc,bottom=5pc}
 
 %\setmainfont{EB Garamond}
 %\usepackage{Alegreya}
@@ -160,8 +160,8 @@
 %\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
 %\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
 
-\def\squigglebreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\kding m}\hfill{\!\kding{a}\!}\cleaders\hbox{\rkding m}\hfill\kern28pt}\bigskip}
-\def\jaggedbreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\rkding q}\hfill{\!\kding S\!}\cleaders\hbox{\kding q}\hfill\kern28pt}\bigskip}
+\def\squigglebreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\kding m}\hfill{\kern-4pt\kding{a}\kern-4pt}\cleaders\hbox{\rkding m}\hfill\kern28pt}\bigskip}
+\def\jaggedbreak{\bigskip\fancybreak{\leavevmode\large\kern28pt\cleaders\hbox{\rkding q}\hfill{\kern-2pt\kding S\kern-2pt}\cleaders\hbox{\kding q}\hfill\kern28pt}\bigskip}
 
 \let\mybreak\jaggedbreak
 
