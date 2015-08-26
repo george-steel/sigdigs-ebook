@@ -20,7 +20,7 @@
 \newfontface\UrlFont[Scale=MatchLowercase,Color=000033]{Latin Modern Mono Prop}
 \newfontfamily\greekfont[Script=Greek,Scale=MatchUppercase]{EB Garamond}
 \newfontfamily\titlefont[Mapping=straightapos]{Kelmscott}
-\newfontface\titlepagefont[Numbers={Proportional,Lining}]{Vinque}
+\newfontface\titlepagefont{Vinque}
 \newfontface\kingdingfont[Scale=1.5]{Kingthings Flourishes}
 
 \newcommand\kding[1]{{\kingdingfont #1}}
@@ -58,6 +58,8 @@
 \newcommand\lding{\fding\kern -0.12em A\kern 0.12em}
 \newcommand\qding{\raisebox{-0.1em}{\fding a}}
 \newcommand\epiframe{\generalframe{\qding}{\lding}{\qding}{\rotatebox{90}{\lding\vphantom{o}}}{\rotatebox{90}{\lding}}{\qding}{\lding}{\qding}}
+
+\newcommand\partframe{\generalframe{\kding 1}{\kding Z}{\kding 1}{\rotatebox{90}{\kding Z}}{\rotatebox{90}{\kding Z}}{\kding 1}{\kding Z}{\kding 1}}
 
 \newcommand\postepi[1]{\clearpage\thispagestyle{plain}~\vfill\begin{center}\epiframe{\begin{minipage}{3.5in}\begin{verse}\itshape #1 \end{verse}\end{minipage}}\end{center}\vfill~}
 \newcommand\qsource[1]{\null\hfill\upshape \hbox{— \minibox[t,r]{#1}}}
@@ -100,11 +102,14 @@
 \setsubsecheadstyle{\large\sffamily\bfseries}
 
 \setcounter{tocdepth}{0}
+\def\cftpartfont{\titlefont}
+\setlength\cftbeforepartskip{12pt}
 \def\cftchapterfont{\addfontfeatures{Numbers={Monospaced,Lining}}}
-\setlength\cftbeforechapterskip{4pt}
+\setlength\cftbeforechapterskip{2pt}
 \def\cftchapterdotsep{3}
 
 \def\cftchapterpagefont{\cftchapterfont}
+\def\cftpartpagefont{\cftpartfont}
 
 
 \makechapterstyle{bonus}{
@@ -136,6 +141,20 @@
 \renewcommand\afterchaptertitle{\par\smallskip{\leavevmode\kern-6pt\LARGE\cleaders\hbox{\rkding q}\hfill{\!\kding W\!}\cleaders\hbox{\kding q}\hfill\kern-6pt}\vspace{2pc}\par}
 }
 \chapterstyle{mychapters}
+
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand\parttitlefont{\HUGE\titlefont}
+\renewcommand\partnamefont{\LARGE\titlefont}
+\renewcommand\partnumfont{\LARGE\titlefont}
+\renewcommand\printpartnum{\partnumfont\NumToName{\thepart}}
+\renewcommand{\midpartskip}{\par\vspace{16pt}\centering\fontsize{48}{48}\selectfont\kding{1}\par\vspace{18pt}}
+\nopartblankpage
+
+\renewcommand\partnumberline[1]{Arc \NumToName{#1}:\:}
+
+\addto\captionsenglish{%
+  \renewcommand{\partname}{Arc}%
+}
 
 %\def\llline#1{\mbox{\vbox{\hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1.3pt \hrule width #1 height 0.5pt \kern 1pt \null}}}
 %\def\mybreak{\bigskip\fancybreak{\llline{4pc}\,\textbf{\large Ω}\,\llline{4pc}}\bigskip}
