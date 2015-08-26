@@ -139,7 +139,7 @@ They would lose this battle.  Attrition would win.
 
 In unison, as if they were marionettes, every Returned still standing cast *Ventus* to clear their front, and then raised their left palms, shouting their chosen activation words.  Hyori failed to clear away all of her new attackers — three redcaps pounced at her legs, shrieking — but still managed to unleash her gauntlet, dropping to her knees as bone clubs smashed into her shins.
 
-“*수갑!*” said Hyori, gasping.
+“<span lang=ko>수갑!</span>” said Hyori, gasping.
 
 “Stinkbubble!”  said Susie.
 
