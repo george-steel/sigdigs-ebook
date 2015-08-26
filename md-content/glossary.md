@@ -5,24 +5,23 @@ Ackle
 :   The mountain home of much of the goblin nation in Britain.
 
 Agenspræc
-:   Literally "other-speech," this term of art refers to
+:   Literally “other-speech,” this term of art refers to
 the incantation required to authorize or remove a Floo connection to an
 established network.
 
 Alþing
 :   The fortress-like headquarters of the Council of
-Westphalia, the Alþing (or "All-**Thing**") serves as an information
+Westphalia, the Alþing (or “All-**Thing**”) serves as an information
 warehouse and the site of fiery debates.
 
 Americas
 :   See **Westphalia, Council of**.
 
-Bogdanov, Agapa "Ilya" Ilyichna
-:   Head of the Office for the
-Detection and Confiscation of Counterfeit Defensive Spells and
-Protective Objects, Ilya is an efficient older witch of Russian
-extraction.  She is a graduate of the Durmstrang Institute, and
-maintains close ties with its faculty.
+Bogdanova, Agapa “Ilya” Ilyinichna
+:   Head of the Office for the Detection and Confiscation of Counterfeit
+Defensive Spells and Protective Objects, Ilya is an efficient older witch
+of Russian extraction.  She is a graduate of the Durmstrang Institute,
+and maintains close ties with its faculty.
 
 Bones, Amelia
 :   As the Chief Warlock, Madame Amelia Bones serves as
@@ -80,7 +79,7 @@ they were succeeded by the Caesars and Muggle rule.
 
 Euphoric
 :   An addict of Euphoria Elixir, unable to resist
-compulsively indulging in that potion's rush of pleasure and delight.
+compulsively indulging in that potion’s rush of pleasure and delight.
 
 Floo Flounder
 :   An American device, these take the form of small
@@ -88,7 +87,7 @@ bellows on the floor and dispense a set amount of Floo powder.  It is
 slightly safer and considerably cleaner than using manual pinches of the
 stuff, especially for children and the elderly.
 
-Franklin's Nez
+Franklin’s Nez
 :   A popular Boston tavern, conspicuous for having
 Pensieves and a variety of exhilarating or pleasurable memories to
 rent.
@@ -99,7 +98,7 @@ that tend to agree on matters of international politics but which endure
 frequent friction among themselves: the Orange Free State, the Zulu Free
 State, and the Transvaal Free State.  The Free States are also notable
 for being one of the areas where the magical world is wholly out of sync
-with the Muggle world's borders.
+with the Muggle world’s borders.
 
 Goddess, The
 :   See **Granger, Hermione Jean**.
@@ -111,7 +110,7 @@ prisoners, who are there to provide sustenance, not suffer punishment.
 
 Granger, Hermione Jean
 :   Also melodramatically known as the
-"Goddess," Hermione is an international envoy for the **Treaty for
+“Goddess,” Hermione is an international envoy for the **Treaty for
 Health and Life** and an activist for various causes (most prominently
 the abolition of Dementors).
 
@@ -120,16 +119,16 @@ Grindelwald, Gellert
 Durmstrang Institute and who rose to power as a Dark Lord with the
 stated intention of overturning the Statute of Secrecy and improving the
 lives of Muggles everywhere under a benevolent dictatorship, modeled
-after Plato's *The Republic*.
+after Plato’s *The Republic*.
 
-Hig, Councilor Regulus "Reg" Black-Horse
+Hig, Councilor Regulus “Reg” Black-Horse
 :   Arguably the most
 influential Councilor on the **Council of Westphalia**, Hig has risen to
 power despite his years spent fighting for the rights of Muggles and
 Beings.  His closest ally is Councilor **Limpel Tineagar**.
 
 Hírnökei
-:   The "Vég Hírnökei," or "Heralds of the End," were the
+:   The “Vég Hírnökei,” or “Heralds of the End,” were the
 fighting force assembled by **Gellert Grindelwald** and indoctrinated
 with a strange kind of fanaticism.  They mostly came from former
 Durmstrang Institute students and the ranks of local warlords from
@@ -151,7 +150,7 @@ International Statute for Health and Life
 international law setting into place requirements for all nations to
 have their sick and elderly restored to health at the **Tower.  **It
 failed to pass in the **International Confederation of Wizards**, and
-was one of Harry Potter's early failures.  See also **Treaty for Health
+was one of Harry Potter’s early failures.  See also **Treaty for Health
 and Life.**
 
 Lectenberg, Susie
@@ -180,17 +179,17 @@ secondary to whomever has the greatest support in the Wizengamot, thanks
 to a governmental structure that strongly favors the legislative branch
 over the executive one.  Recent Ministers in chronological order have
 been: Millicent Bagnold, Bartemius Crouch, Cornelius Fudge, Rufus
-Scrimgeour, Pius Thicknesse, Junius Simplewort Smith, and Carmel N'goma
+Scrimgeour, Pius Thicknesse, Junius Simplewort Smith, and Carmel N’goma
 (the current Minister).
 
-Moody, Alastor "Mad Eye"
-:   He's probably watching you now.
+Moody, Alastor “Mad Eye”
+:   He’s probably watching you now.
 
 Mukwooru
 :   A powerful Comanche medicine man in antiquity, who
 probably lived during the fifteenth or sixteenth century.
 
-N'goma, Carmel
+N’goma, Carmel
 :   See **Minister for Magic.**
 
 Nutcombe Society, The
@@ -199,14 +198,14 @@ hags in Britain; it has only a handful of members, but it is an
 important support group for those hags who wish to live an alternative
 lifestyle.
 
-Pirrip, Phillip "Pip"
+Pirrip, Phillip “Pip”
 :   A relatively new auror assigned to the
 **Tower**, given an unfortunate name by his father, a Muggle literature
 professor.
 
 Potter-Evans-Verres, Harry James
-:   Also known as "Harry Potter" or
-the "**Tower**," Harry lives in a box, heals people, and schemes.
+:   Also known as “Harry Potter” or
+the “**Tower**,” Harry lives in a box, heals people, and schemes.
 
 Price, Esther
 :   A member of the **Returned** of **Hermione
@@ -233,7 +232,7 @@ suffering in the world.  They do not lack ambition.  Also see
 Esther; Smith, Simon; Tonks, Nymphadora; or Urg of the Returned.**
 
 Room 101
-:   Everyone knows what's in Room 101. The thing that is in
+:   Everyone knows what’s in Room 101. The thing that is in
 Room 101 is the worst thing in the world.
 
 Russell Center, The
@@ -259,7 +258,7 @@ respect to obstruct them in their studies or their frolics.  A small
 group of buildings has been built among the trees near the Sprig, and
 form a rough center to their community.
 
-Satomi's Dogs
+Satomi’s Dogs
 :   A powerful set of magical items once employed by
 **Gellert Grindelwald**, these crystal devices granted that Dark Lord
 some unknown power to sustain himself.  The secret of their means and
@@ -297,7 +296,7 @@ problem and a fighting problem, and in time it led to Azkaban.
 Sontag
 :   A hamlet of medieval Magical Britain, located in the West
 Country.  It was abandoned in the fourteen century.  It was near
-Godric's Hollow, the magical community from which Sontag once sprang due
+Godric’s Hollow, the magical community from which Sontag once sprang due
 to disagreements over the prohibition of werewolves.
 
 Ten Thousand, The
@@ -327,7 +326,7 @@ Treaty for Health and Life
 :   A formal agreement between different
 magical states, sponsored by Britain and guided by the **Tower**, that
 directs the establishment of Safety Poles in magical communities, the
-free availability of Safety Sticks and elite Healer's Kits, and a
+free availability of Safety Sticks and elite Healer’s Kits, and a
 variety of other social and economic changes.
 
 Tower, The
@@ -353,7 +352,7 @@ Britain and the **Treaty for Health and Life**.
 
 Urg the Unclean
 :   The charismatic and brilliant leader of the fifth
-goblin rebellion of 1720-1722 C.E., the "Great Rebellion."
+goblin rebellion of 1720-1722 C.E., the “Great Rebellion.”
 
 Urg the Returned
 :   A member of the **Returned **of **Hermione
@@ -365,15 +364,15 @@ many centuries.
 Vanishing Room
 :   A natural extension of the concept of the
 Vanishing Cabinet, constructed for easy international shipping.  Put
-things in, close the door, and they're teleported to the twin room
+things in, close the door, and they’re teleported to the twin room
 somewhere else in the world.
 
 Veres Kezek
-:   The "Red Hands," one of the death squads of **Gellert
+:   The “Red Hands,” one of the death squads of **Gellert
 Grindelwald** during his reign of terror.  See also **Hírnökei.**
 
 Walpurgisnacht
-:   "Walpurgis Night," the night of April 30th, is a
+:   “Walpurgis Night,” the night of April 30th, is a
 night of celebration for many Muggles.  It is named after St. Walpurga,
 and in many countries in Europe is marked by the building of big
 bonfires, evoking the fires in which witches were once burned.  It is a
@@ -412,6 +411,6 @@ overwhelmingly with supporters of **Harry Potter** and his initiatives.
 well as elected Tribunes from other constituent bodies.
 
 Záh Kardja
-:   The "Sword of Záh," one of the death squads of
+:   The “Sword of Záh,” one of the death squads of
 **Gellert Grindelwald** during his reign of terror.  Named in honor of
 the Hungarian Felician Záh.  See also **Hírnökei**.
